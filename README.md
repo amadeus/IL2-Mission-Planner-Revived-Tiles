@@ -1,3 +1,3 @@
 # Il-2 Tiles Service
 
-Providing map tiles for [il2missionplanner.com](http://il2missionplanner.com).
+Providing map tiles for [IL2 Mission Planner Revived](https://serverror.github.io/IL2-Mission-Planner/).
