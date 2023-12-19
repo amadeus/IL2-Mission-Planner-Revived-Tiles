@@ -21,3 +21,12 @@ Imagemagick's "montage" is the easiest way to stitch together the tiles. Use it 
 `montage *.png -mode Concatenate -tile 20x stitch.png`
 
 Adjust tile number based on the number of image tiles in one row.
+
+## To get this properly working, you must first setup python virtual env, then
+do:
+
+```
+pip install -r requirements.txt
+source env/bin/activate
+python ../bin/gdal2tiles.py ../src/normandy_ftc/normandy_ftc.png -z 0-7 -p raster -l
+```
